@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div>
+            <!-- 1. html inline event handler -->
+            <button onclick="alert('hi - 1');">Welcome to events</button>
+        </div>
+
+        <script>
+            var btn = document.querySelector('button');
+            console.log(btn);
+            
+            // 2. event handler properties
+            btn.onclick = function(){
+                alert('hi - 2');
+            }
+
+            // 3. addEventListner
+            btn.addEventListener('click', function(){
+                alert('hi - 3');
+            });
+
+            btn.addEventListener('click', function(){
+                alert('hi - 4');
+            });
+
+        </script>
+    </body>
+</html>
