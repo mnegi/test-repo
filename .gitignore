@@ -1,1 +1,25 @@
 secret
+
+( backend )
+    
+    -- Algorithm & DS in JavaScript
+    -- REST api (advance)
+        - error handler
+        - authentication / session (sessionless)
+            - token (where do you store this) / JWT
+            - expiry
+        - authrorization
+        - third party integration ( payment gateway, email, sms)
+        - file handling (multer)
+            - image server
+        - swagger api doc ( extremely important)
+        - TDD (unit test cases)
+        - Mocking (mockito)
+        - Caching (API - data)
+        - Rate limit
+        - Batch processing
+        - Scheduling (job)
+    -- MongoDB (master)
+    -- Redis/memcached ( in memory) - Caching
+    -- Queue (MQ - message Queue) - Email (deliver) - RabbitMQ
+    
