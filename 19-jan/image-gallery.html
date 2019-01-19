@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <style>
+        .thubnails {
+            width: 20%;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="preview">
+        <img id="previewImage" src="pic1.jpg">
+    </div>
+    <div>
+        <img src="pic1.jpg" class="thubnails">
+        <img src="pic2.jpg" class="thubnails">
+        <img src="pic3.jpg" class="thubnails">
+        <img src="pic4.jpg" class="thubnails">
+    </div>
+    <script>
+        var thubs = document.querySelectorAll('.thubnails');
+        var previewImage = document.getElementById('previewImage');
+        for (i = 0; i < thubs.length; i++) {
+            thubs[i].onclick = function(e) {
+                previewImage.setAttribute('src', e.target.src);
+            }
+        }
+    </script>
+</body>
+
+</html>

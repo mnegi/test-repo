@@ -3,6 +3,6 @@ myHeading.textContent = 'Hello world! Welcome to JS';
 
 var myBtn = document.querySelector('button');
 
-myBtn.onclick = function(){
+myBtn.onclick = function() {
     alert("Hello World!");
 }
